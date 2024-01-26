@@ -81,7 +81,7 @@ int checkMultiParenthesis(char str[])
     // Defining Stack
     sp->size = 10;
     sp->top = -1;
-    sp->arr = (char *)malloc(sp->size * sizeof(struct stack));
+    sp->arr = (char *)malloc(sp->size * sizeof(char));
 
     char popedElement;
 
